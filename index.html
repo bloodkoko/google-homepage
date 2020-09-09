@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <style>
+            input{
+               border-radius: 25px;
+               border: 1px thin grey;
+               padding: 10px;
+               width: 32%;
+               position: relative;
+               margin-bottom: 30px;
+               left: -120px;
+               right: 120px;
+            }
+            form{
+                position: relative;
+                top: 220px;
+            }
+            #logo{
+                position: relative;
+                top: 190px;
+                left: 41%;
+                right: 60%;
+            }
+            ul {
+                list-style-type: none;
+                margin: 5px;
+                padding: 5px;
+                float: right;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+            li {
+                float: left;
+            }
+            a {
+                display: block;
+                padding: 8px;
+                color: black;
+                text-decoration: none;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+
+            .dropdown:hover .dropdown-content {
+                 display: block;
+            }
+            button{
+                padding: 5px;
+                margin: 8px;
+            }
+            footer{
+                position: absolute;
+                bottom: 0px;
+                padding-bottom: 0px;
+                padding-top: 10px;
+                padding-left: 0px;
+                margin: 0px;
+                width: 100vmax;
+                background-color: #f2f2f2;
+                color: darkgrey;
+                left: 0px;
+                border-top: 2px solid #e4e4e4;
+                line-height: 20px;
+            }
+            body{
+                max-width: 100%;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+            }
+            #search{
+                position: absolute;
+                left: 32%;
+                right: 32%;
+            }
+            .buttons{
+                position: absolute;
+                top: 70px;
+                left: 41%
+            }
+            a:visited{
+                color: black;
+            }
+            #rightbottom{
+                position: relative;
+                float:right;
+                background-color: #f2f2f2;
+                text-align: bottom;
+            }
+            #leftbottom{
+                position: relative;
+                float:left;
+                background-color: #f2f2f2;
+                margin: 0px;
+                padding-left: 22px;
+            }
+            #country{
+                padding:5px 0px 5px 30px;
+                border-bottom: 2px solid #e4e4e4;
+            }
+        </style>
+        <title> Google </title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="https://mail.google.com"> Gmail </a></li>
+                <li><a href="https://www.google.bg/imghp?hl=en&tab=wi&ogbl">Images</a> </li>
+                <li class="dropdown">
+                    <a class="dropbtn">Google Apps</a>
+                    <div class="dropdown-content">
+                        <a target="_blank" href="https://maps.google.bg/maps?hl=en&tab=wl">Maps</a>
+                        <a target="_blank" href="https://www.youtube.com/?gl=BG&tab=w1">YouTube</a>
+                        <a target="_blank" href="https://play.google.com/?hl=en&tab=w8">Play</a>
+                        <a target="_blank" href="https://news.google.com/?tab=wn">News</a>
+                        <a target="_blank" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+                        <a target="_blank" href="https://meet.google.com/?hs=197&pli=1&authuser=0">Meet</a>
+                        <a target="_blank" href="https://contacts.google.com/?hl=en&tab=wC">Contacts</a>
+                        <a target="_blank" href="https://drive.google.com/?tab=wo&authuser=0">Drive</a>
+                        <a target="_blank" href="https://www.google.com/calendar?tab=wc">Calendar</a>
+                        <a target="_blank" href="https://translate.google.bg/?hl=en&tab=wT">Translate</a>
+                        <a target="_blank" href="https://photos.google.com/?tab=wq&pageId=none">Photos</a>
+                        <a target="_blank" href="https://duo.google.com/?usp=duo_ald">Duo</a>
+                    </div>
+                </li>
+                <li><a href="#">Google Account</a></li>
+            </ul>
+        </nav>
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+        <form> 
+            <input type="text" name="search" id="search">
+            <div class="buttons">
+                <button type="button"> Google Search </button>
+                <button type="button">I'm Feeling Lucky</button>
+            </div>
+        </form>
+        <footer>
+            <div>
+                <div id="country">Bulgaria</div>
+                <span>
+                    <ul id="leftbottom">
+                        <li><a style=color:rgb(78,78,78) href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjSpIGjgNrrAhWMlhQKHVTfCu8QkdQCCBU&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_bg%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw2B7DHhBm8f_xBeK-qD-yWh">Advertising</a></li>
+                        <li><a style=color:rgb(78,78,78) href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwio-uOthtrrAhWOHxQKHecABugQktQCCBY&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a></li>
+                        <li><a style=color:rgb(78,78,78) href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwio-uOthtrrAhWOHxQKHecABugQkNQCCBc&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-BG%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw1tqoqgmiptD8kkbFne1Jr7">About</a></li>
+                        <li><a style=color:rgb(78,78,78) href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                    </ul>
+                </span>
+                <span>
+                    <ul id="rightbottom">
+                        <li><a style=color:rgb(78,78,78) href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiltbvKi9rrAhXaA2MBHcTkCPQQ8awCCBE&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den-BG%26fg%3D1&usg=AOvVaw0a1CPX_GmIhMtgfjLhCzzo">Privacy</a></li>
+                        <li><a style=color:rgb(78,78,78) href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiltbvKi9rrAhXaA2MBHcTkCPQQ8qwCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den-BG%26fg%3D1&usg=AOvVaw2wyujMfq6VHm95LzROTUXC">Terms</a></li>
+                        <li><a style=color:rgb(78,78,78) href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiltbvKi9rrAhXaA2MBHcTkCPQQzq0CCBM&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F">Settings</a></li>
+                    </ul>
+                </span>
+            </div>    
+        </footer>
+    </body>
